@@ -1,0 +1,13 @@
+Leonardo, Ojeda, 52216235
+
+Se establecen 4 ramas principales, Develop que registra el desarrollo de un modulo, Release que registra las liberaciones del modulo, Feature que registra las funcionalidades individuales del modulo y Hotfix que registra arreglos de emergencia.
+
+El flujo general sería el siguiente:
+	Una rama de Develop es creada desde Master
+	Una rama de  Release es creada desde Develop 
+	Las ramas de Feature son creadas desde Desarrollo
+
+Cuando una funcionalidad es completada se fusiona hacia la rama de Desarrollo
+Cuando la rama Release está terminada se fusiona hacía Desarrollo y Master
+Si se detecta un error en Master se crea una rama HotFix desde Master
+Una vez que HotFix es completado se fusiona con Desarrollo y Master
