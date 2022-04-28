@@ -1,0 +1,3 @@
+Leonardo Ojeda, 52216235
+
+si queremos hacer un merge desde Funcionalidades a Developer se requerirá que dicha funcionalidad esté en una etapa avanzada de desarrollo.  Desde Desarrollo a Release se requiere la aprobación de testing el cual realizará una etapa de prueba previa a dicha aprobación. Los merge de Release a Master, se harán cuando se alcance un hito específico (Ej. Módulo de funcionalidad completo). Una vez en master se podria considerar que esta listo para produccion y se emepzaria el despliegue.
